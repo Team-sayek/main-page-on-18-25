@@ -148,6 +148,25 @@ span {
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+/* For small screens (phones) */
+@media (max-width: 768px) {
+    .social-media a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 1rem 0.8rem 1rem 0;
+    }
+}
+
+/* Extra small screens (≤ 480px) */
+@media (max-width: 480px) {
+    .social-media a {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+        margin: 0.8rem 0.6rem 0.8rem 0;
+    }
+}
 
 .btn {
     display: inline-flex;
